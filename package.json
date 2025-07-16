@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sarangsalame/Node/issues"
   },
-  "homepage": "https://github.com/sarangsalame/Node#readme"
+  "homepage": "https://github.com/sarangsalame/Node#readme",
+  "dependencies": {
+    "mongoose": "^8.16.3"
+  }
 }

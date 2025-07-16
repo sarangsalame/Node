@@ -10,4 +10,53 @@ PATCH /api/user/1 -Edit the user with id 1
 
 DELETE /api/user/1 - Delete the user withe id 1
 
+----------------------------------------------
+Http headers: Additional information over a api call that represent the meta data of req and response.
+
+Always add X to customer headers like X-myName : 'Sarang'
+res.setHeader('X-myName' : 'Sarang')
+
+------------------------------------------
+HTTP response Status code:
+information response: (100-199)
+successful response: (200-299)
+Redirection response: (300-399)
+Client error response: (400-499)
+server error response: (500-599)
+
+---------------------------------------------
+Mongo DB
+No-sql Document Based database 
+strong support for aggregation pipes 
+works on BSON format
+best for node applications
+
+Archecute of mongodb:
+Collection - 'users'
+  -document1
+  -document2
+  ...
+--------------------------------
+Installation and setup of mongodb
+mongodb install in goolge
+-mongodb install comunity version
+-download msi file for windows
+
+terminal - mongosh
+commands
+-show dbs: list all the existing dbs
+-use [dbname] : to use/work on the [dbname] 
+-show collections : list all collections
+-db.users.find({}) : all the entries/documents will be listed
+-db.users.insert({ }): to update the document
+
+------------------------------
+Connect mongodb with node JS
+mongosh
+install mongoose pkg: node i mongoose
+
+Schema - define the structure
+  Schema - create model
+  using model- we can do crud operation
+
 
